@@ -1,0 +1,14 @@
+﻿# Godot
+.godot/
+*.import
+*.ctex
+*.md5
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+*.code-workspace
+.vscode/
+.idea/

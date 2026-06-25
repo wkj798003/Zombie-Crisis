@@ -1,0 +1,16 @@
+﻿extends Node
+
+signal player_damaged(amount, new_hp)
+signal player_died()
+signal xp_changed(amount, total, level)
+signal level_up(new_level)
+signal weapon_switched(weapon_id, weapon_name)
+signal weapon_fired(weapon_id, pos, dir)
+signal enemy_killed(enemy_type, pos)
+signal game_over()
+signal game_paused(val)
+signal upgrade_offered(options)
+signal upgrade_selected(type, id, level)
+signal ammo_changed(weapon_id, current, max)
+signal reloading(weapon_id, is_reloading)
+signal scope_changed(is_scoped)
